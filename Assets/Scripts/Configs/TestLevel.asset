@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59ad2d2085fced4dab58f483ffb4f36, type: 3}
+  m_Name: TestLevel
+  m_EditorClassIdentifier: 
+  cellSize: {x: 2, y: 2, z: 2}
+  maxBlocksInRowCount: 3
+  flyHeight: 8
+  bonusSpawnChance: 75
+  startPlatform: {fileID: 8427199474028127946, guid: 80b834a5e35541c49974d6b15a2d5aaa, type: 3}
+  platforms:
+  - {fileID: 8406947452635304322, guid: 167b3da03b033fe44a7c04cf799fe77a, type: 3}
+  - {fileID: 1515638481198804316, guid: 37032b700796ac2419ba86e9884a3ac1, type: 3}
+  - {fileID: 123473477352178668, guid: 1adb9b8b3f216214c8ef934020bd14ee, type: 3}
+  - {fileID: 7406253273648499496, guid: fe89cf90793ee0c49884a4a577bb3a8e, type: 3}
+  bonuses:
+  - type: 0
+    bonusView: {fileID: 2917785466218154525, guid: 36157c5493543f94fb03e32a21933211, type: 3}
+    bonusChance: 50
+  - type: 1
+    bonusView: {fileID: 635969676160038342, guid: 8bca31639c77b554293aa636f5061edc, type: 3}
+    bonusChance: 20
+  - type: 2
+    bonusView: {fileID: 8113406779098221494, guid: c7e30b6d3b760f8449e88ede7015841b, type: 3}
+    bonusChance: 20
+  - type: 3
+    bonusView: {fileID: 3178508843897091964, guid: d773842db983ce144b70b4410e6bd52b, type: 3}
+    bonusChance: 10
